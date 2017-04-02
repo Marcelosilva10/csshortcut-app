@@ -1,13 +1,20 @@
 {
+<<<<<<< HEAD
   "name": "csshortcut-app",
   "version": "0.1.0",
   "description": "Projeto descolado",
+=======
+  "name": "fake-project",
+  "version": "1.0.0",
+  "description": "> Projeto descolado <3",
+>>>>>>> Projeto Afonso Pacifer
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/csshortcut/csshortcut-app.git"
   },
   "author": "afonsopacifer",
@@ -22,5 +29,20 @@
     "gulp-imagemin": "^3.1.1",
     "gulp-pug": "^3.3.0",
     "gulp-stylus": "^2.6.0"
+=======
+    "url": "git+https://github.com/Marcelosilva10/csshortcut-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcelosilva10/csshortcut-app/issues"
+  },
+  "homepage": "https://github.com/Marcelosilva10/csshortcut-app#readme",
+  "devDependencies": {
+    "bananacss": "^0.8.0",
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.6.0",
+    "pug": "^2.0.0-beta11"
+>>>>>>> Projeto Afonso Pacifer
   }
 }

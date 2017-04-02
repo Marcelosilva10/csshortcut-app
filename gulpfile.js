@@ -1,4 +1,5 @@
 var gulp = require('gulp')
+<<<<<<< HEAD
 var pug = require('gulp-pug')
 var stylus = require('gulp-stylus')
 var connect = require('gulp-connect')
@@ -38,3 +39,17 @@ gulp.task('serve', function() {
 
 gulp.task('build', ['pug','stylus','imagemin'])
 gulp.task('server', ['serve','watch'])
+=======
+var stylus = require('gulp-stylus')
+
+gulp.task('stylus', function(){
+  gulp.src('style.styl')
+  .pipe(stylus({
+    compress: false
+  }))
+  .pipe(gulp.dest('build'))
+});
+
+//Todas as tarefas
+//gulp.task('build', ['stylus', 'angular'])
+>>>>>>> Projeto Afonso Pacifer
