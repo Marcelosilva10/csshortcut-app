@@ -1,12 +1,6 @@
 {
-  "name": "csshortcut-app",
+  "name": "csshorcut-app",
   "version": "0.1.0",
-  "description": "Projeto descolado",
-  "name": "fake-project",
-  "version": "1.0.0",
-  "description": "> Projeto descolado <3",
-  "name": "fake-project",
-  "version": "1.0.0",
   "description": "> Projeto descolado <3",
   "main": "index.js",
   "scripts": {
@@ -16,20 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/csshortcut/csshortcut-app.git"
   },
-  "author": "afonsopacifer",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/csshortcut/csshortcut-app/issues"
-  },
-  "homepage": "https://github.com/csshortcut/csshortcut-app#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-imagemin": "^3.1.1",
-    "gulp-pug": "^3.3.0",
-    "gulp-stylus": "^2.6.0"
-  },
-  "author": "",
+  "author": "Marcelo Henrique",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Marcelosilva10/csshortcut-app/issues"
@@ -40,5 +21,6 @@
     "gulp": "^3.9.1",
     "gulp-stylus": "^2.6.0",
     "pug": "^2.0.0-beta11"
-  }
+  },
+  "dependencies": {}
 }
